@@ -123,8 +123,8 @@
 }
 .naver li a{
 	display: inline-block;
-	padding-left: 40px;
-	width: 186px;
+	padding-left: 46px;
+	width: 180px;
 	height: 70px;
 	line-height: 70px;
 	font-size: 18px;
@@ -200,7 +200,7 @@
 .container{
 	width: 1190px;
 	padding: 0 5px;
-	margin: 80px auto 0;
+	margin: 80px auto 36px;
 	overflow: hidden;
 }
 .container-l{
@@ -491,6 +491,7 @@
 	background: url(../imgs/zys_img13.png) no-repeat left center;
 }
 .info-rank{
+	margin-top: 22px;
 	width: 336px;
 }
 .info-rank .head{
@@ -508,7 +509,7 @@
 .info-rank .body{
 	padding: 30px 22px 0 16px;
 	border: 1px solid #e0e0e0;
-	height: 320px;
+	height: 290px;
 	background-color: #fff;
 }
 .info-rank .body .hd ul{
@@ -537,19 +538,28 @@
 }
 .info-rank .body .bd table{
 	/*width: 295px;*/
+	border: none;
 	border-collapse: collapse;
+}
+.info-rank .body .bd table tr{
+	border-bottom: 1px dashed #dcdcdc;
+}
+.info-rank .body .bd table tr.last{
+	border-bottom: none;
 }
 .info-rank .body .bd table th{
 	text-align: center;
 	height: 40px;
 	font-size: 16px;
 	color: #005293;
+	border: none;
 }
 .info-rank .body .bd table td{
 	text-align: center;
 	height: 36px;
 	color: #595959;
 	font-size: 14px;
+	border: none;
 }
 .info-rank .body .bd table td span{
 	display: inline-block;
@@ -572,7 +582,68 @@
 .bg-td3{
 	background-color: #00a1e9;
 }
-.bg-td4{
+.bg-tdgrey{
 	background-color: #8f8f8f;
 }
+.footer{
+	padding-top: 56px;
+	height: 132px;
+	text-align: center;
+	background: url(../imgs/zys_img32.png) repeat-x top center;
+}
+.footer .wrapper{
+	position: relative;
+}
+.footer li{
+	display: inline;
+	margin: 0 2px;
+}
+.footer .copyright{
+	margin-top: 10px;
+}
+.footer .record {
+	margin-top: 13px;
+}
+.footer li a,
+.footer .copyright p,
+.footer .record p{
+	font-size: 14px;
+	color: #666666;
+}
+.footer .gover-icon{
+	position: absolute;
+	left: 8px;
+	top: 50%;
+	margin-top: -32px;
+}
+.footer .find-error{
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	right: 10px;
+}
 /*信息公开 结束*/
+
+/*信息公开单页 开始*/
+.container2{
+	margin-top: 13px;
+}
+.container .nav{
+	height: 66px;
+}
+.container .nav ul{
+	overflow: hidden;
+}
+.container .nav li {
+	float: left;
+}
+.container .nav li a{
+	font-size: 14px;
+	color: #6b6b6b;
+}
+.container .nav li.first a{
+	width: 200px;
+	height: 50px;
+	background: url(../imgs/zys_img41.png) no-repeat;
+}
+/*信息公开单页 结束*/
